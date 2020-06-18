@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="leaderpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="136.0" prefWidth="459.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GUI">
+   <children>
+      <Label layoutX="132.0" layoutY="14.0" text="LEADER BOARD">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Button layoutX="25.0" layoutY="79.0" mnemonicParsing="false" onAction="#bestgame" prefHeight="40.0" prefWidth="119.0" text="BEST GAMES">
+         <font>
+            <Font name="Mistral" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="170.0" layoutY="79.0" mnemonicParsing="false" onAction="#yourbest" prefHeight="40.0" prefWidth="119.0" text="YOUR BEST GAMES">
+         <font>
+            <Font name="Mistral" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="314.0" layoutY="79.0" mnemonicParsing="false" onAction="#yourlast" prefHeight="40.0" prefWidth="119.0" text="YOUR LAST GAMES">
+         <font>
+            <Font name="Mistral" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
